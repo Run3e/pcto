@@ -26,4 +26,6 @@ printf ("c-d %f\n", c-d);
 printf ("c*d %f\n", c * d);
 printf ("c/d %f\n", c / d);
 printf ("e+f %fl\n", e + f);
+printf ("e-f %fl\n", e-f);
+
 }
