@@ -21,3 +21,10 @@ printf ("a*b %f\n", a * b);
 printf ("a/b %f\n", a / b);
 printf ("a*c %fl\n", a * c);
 }
+
+
+  char lol = 'f';
+    char signor = 's';
+    char lettera = 'p';
+    printf("%d", lettera+2); //Tabella ascii -> p=112 quindi p+2=114
+    printf("%c", signor);
