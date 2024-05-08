@@ -2,20 +2,31 @@
 
 int main()
 {
-    int a;
     int b;
-
-    printf("Quale numero desideri verificare?\n");
+    int a;
+    int c = 0;
+   
+    printf("Inserisci un numero\n");
     scanf("%d", &b);
 
-    if(b % a == 0)
+    a = b - 1;
+
+    while(a > 1) //Finchè a > 1
     {
-        while(a == b + 1)
-        printf("Numero primo");
+        if(b % a == 0)
+        {
+            c = c + 1;
+        }
+        a = a - 1;
     }
 
-    else if (b % a == 1)
+    if(c == 0)
     {
-        printf("Numero non primo");
+        printf("Numero primo\n");
+    }
+    
+    else
+    {
+        printf("Numero non primo\n");
     }
 }
