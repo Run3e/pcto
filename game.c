@@ -92,7 +92,7 @@
         printf("Inizi a correre senza voltarti indietro e raggiungi l'atrio di casa tua.\nBussi quindi alla porta\n");
       }
 
-      printf("Tua madre apre la porta e ti mostra arrabbiata l'orario: sono le 23:32.\nTi chiede come mai hai fatto tutto questo ritardo\n1) Menti\n2) Dì la verità\n3) Inizia a piangere");
+      printf("Tua madre apre la porta e ti mostra arrabbiata l'orario: sono le 23:32.\nTi chiede come mai hai fatto tutto questo ritardo\n1) Menti\n2) Dì la verità\n3) Inizia a piangere"\n);
       scanf("%d", &choice);
       if(choice<=1)
       {
