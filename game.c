@@ -22,5 +22,5 @@
       printf("Nonostante lasci squillare il telefono a lungo non risponde nessuno...\nDecidi quindi di rassegnarti e di raggiungere la stazione.\nTi siedi dunque su una panchina ad aspettare il treno\n");
     }
 
-    printf("Dopo circa un'ora, arriva il trenino ma è pieno di persone");
+    printf("Dopo circa un'ora, arriva il trenino ma è pieno di persone. Cosa fai?");
   }
