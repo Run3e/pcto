@@ -63,29 +63,29 @@ int main()
             if (choice == 1)
             {
                 sleep(1);
-                printf("LUCA BARONE\nClasse: 4D\nMedia: 8.2\nSpecializzato in: Materie scientifiche\n");
+                printf("LUCA BARONE\nClasse: 4D\nMedia: 8.2\nSpecializzato in: Materie scientifiche\nCosto all'ora: 15,00 euro");
             }
             else if (choice == 2)
             {
                 sleep(1);
-                printf("ELENA FERRARI\nClasse: 3G\nMedia: 8.8\nSpecializzata in: Materie umanistiche\n");
+                printf("ELENA FERRARI\nClasse: 3G\nMedia: 8.8\nSpecializzata in: Materie umanistiche\nCosto all'ora: 12,00 euro\n");
             
                 
             }
             else if (choice == 3)
             {
                 sleep(1);
-                printf("ELIA TERRAGROSSA\nClasse: 5F\nMedia: 8.4\nSpecializzato in: Lingue straniere\n");
+                printf("ELIA TERRAGROSSA\nClasse: 5F\nMedia: 8.4\nSpecializzato in: Lingue straniere\nCosto all'ora: 10,00 euro\n");
             }
             else if (choice == 4)
             {
                 sleep(1);
-                printf("LAVINIA SARTORI\nClasse: 2C\nMedia: 8.6\nSpecializzata in: Materie umanistiche\n");
+                printf("LAVINIA SARTORI\nClasse: 2C\nMedia: 8.6\nSpecializzata in: Materie umanistiche\nCosto all'ora: 15,00 euro\n");
             }
             else if (choice == 5)
             {
                 sleep(1);
-                printf("NOEMI CUSINATO\nClasse: 3Q\nMedia: 8.3\nSpecializzata in: Materie scientifiche\n");
+                printf("NOEMI CUSINATO\nClasse: 3Q\nMedia: 8.3\nSpecializzata in: Materie scientifiche\nCosto all'ora: 12,00 euro\n");
             }
             printf("\n1) Seleziona\n2) Torna alla lista\n");
             scanf(" %d", &choice);
