@@ -198,6 +198,7 @@
       printf("Annuisci e, notando una sua distrazione cogli l'occasione per scappare dentro casa evitanto ulteriori conversazioni inquietanti con altri individui\n");
       sleep(2);
       printf("Incontri tuo fratello che ti chiede come mai sei tornato così tardi\nCosa rispondi?\n1) Una bugia\n2) La verità\n3) Lo ignori\n");
+      scanf(" %d", &choice);
       if(choice<=1)
       {
         printf("Dici a tuo fratello come hanno cercato di derubarti per strada cercando di essere convincente.\n Lui non risponde e si limita ad andarsene\n");
