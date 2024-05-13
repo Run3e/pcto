@@ -108,6 +108,7 @@ int main()
           sleep(2);
           printf("Tuttavia l'aereo si schianta perchè qualche imbecille dell'areonautico si è rotto il collo accendendo il motore\n");
         }
+
       }
   }
   }
