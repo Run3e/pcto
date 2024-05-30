@@ -73,14 +73,14 @@ int main()
       printf("1) Internazionale\n2) Matematico\n3) Scienze applicate\n4) Sportivo\n5) Tradizionale\n6) Quadriennale\n7) Musicale\n");
       scanf("%d", &choice);
 
-      if(choice=1)
+      if(choice<=1)
       {
         system("clear");
         sleep(1);
         printf("Congratulazioni! Hai scelto il liceo scientifico internazionale!!\n\n");
         sleep(2);
         printf("Spero tu sia felice della tua scelta...\n");
-        sleep(1);
+        sleep(2);
         printf("...perchè non potrai modificarla\n\n");
         sleep(2);
         system("clear");
@@ -90,7 +90,7 @@ int main()
         printf("1) Ti trasferisci in Francia\n2) Continui anche se non sai neanche tu che cavolo stai studiando\n");
         scanf("%d", &choice);
 
-        if(choice=1)
+        if(choice<=1)
         {
           system("clear");
           sleep(1);
@@ -108,8 +108,77 @@ int main()
           sleep(2);
           printf("Tuttavia l'aereo si schianta perchè qualche imbecille dell'areonautico si è rotto il collo accendendo il motore\n");
         }
+      }
+      else if(choice=2)
+      {
+        system("clear");
+        sleep(1);
+        printf("Complimenti! Hai scelto il liceo scientifico matematico!...");
+        sleep(2);
+        printf("...esattamente quale trauma hai subito da piccolo?\n\n");
+        sleep(2);
+        printf("Vabbè. Hai scelto +matematica e -sanità mentale!\n\n");
+        sleep(2);
+        printf("Dopo anni di intensi studi vai finalmente a fare la maturità. Come va?\n\n");
+        sleep(1);
+        printf("1) Vieni promosso\n2) Vieni bocciato\n");
+        scanf("%d", &choice);
 
+        if(choice<=1)
+        {
+          system("clear");
+          sleep(1);
+          printf("Complimenti! ora scegli il tuo lavoro!\n\n");
+          sleep(1);
+          printf("1) Benzinaio\n2) Impiegato sottopagato del McDonald's\n");
+          scanf("%d", &choice);
+
+          if(choice<=1)
+          {
+            system("clear");
+            sleep(1);
+            printf("Incontri una bella ragazza e ti innamori della sua macchina\n\n");
+            sleep(2);
+            printf("Abbandoni il posto di lavoro per seguirla fino a casa\n\n");
+            sleep(1);
+            printf("La fermi mentre si trova sull'uscio di casa sua e le confessi il tuo amore\nLei cosa fa?\n\n");
+            sleep(1);
+            printf("1) Accetta il tuo amore\n2) Ti rifiuta\n");
+            scanf("%d", &choice);
+
+            if(choice<=1);
+            {
+              system("clear");
+              sleep(1);
+              printf("Vi sposate ma dopo 29 anni di matrimonio le confessi che in realtà ti eri innamorato della sua macchina e non di lei.\n\n");
+              sleep(2);
+              printf("Ti chiede quindi il divorzio e vai a vivere per strada\n\n");
+              sleep(2);
+              printf("Vieni investito dal pro-pro-pro-pro-pro-pro-pro-pro nipote di Pitagora\n");
+            }
+            else
+            {
+              system("clear");
+              sleep(1);
+              printf("La polizia ti arresta per stalking e muori in prigione\n");
+            }
+
+          }
+          else if(choice=2)
+          {
+            system("clear");
+            sleep(1);
+            printf("Provi a calcolare la parabola necessaria per tirare il panino ad un cliente ma sbagli e gli arriva in faccia\n\n");
+            sleep(2);
+            printf("Ti licenziano e muori di cancro al piano cartesiano\n");
+          }
+        }
+        else if(choice=2)
+        {
+          system("clear");
+          sleep(1);
+          printf("Muori perchè non sei riuscito a calcolare il gradiente della gamba del figlio del prof\n");
+        }
       }
   }
   }
-}
