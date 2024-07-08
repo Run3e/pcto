@@ -37,18 +37,18 @@ int main()
     
     if(choice<=1)
     {
-        system("clear");
-        sleep(1);
-        printf("hahaha fine del gioco per te piccolo burlone!\n");
+      system("clear");
+      sleep(1);
+      printf("hahaha fine del gioco per te piccolo burlone!\n");
     }
     else
     {
-        system("clear");
-        sleep(1);
-        printf("Undertale reference!...\n");
-        sleep(2);
-        printf("Sei morto btw...\n");
-        sleep(1);
+      system("clear");
+      sleep(1);
+      printf("Undertale reference!...\n");
+      sleep(2);
+      printf("Sei morto btw...\n");
+      sleep(1);
     }
   }
   else
@@ -162,13 +162,12 @@ int main()
               sleep(1);
               printf("La polizia ti arresta per stalking e muori in prigione\n");
             }
-
           }
           else if(choice=2)
           {
             system("clear");
             sleep(1);
-            printf("Provi a calcolare la parabola necessaria per tirare il panino ad un cliente ma sbagli e gli arriva in faccia\n\n");
+            printf("Provi a calcolare la parabola necessaria per tirare un panino ad un cliente ma sbagli e gli arriva in faccia\n\n");
             sleep(2);
             printf("Ti licenziano e muori di cancro al piano cartesiano\n");
           }
@@ -180,5 +179,6 @@ int main()
           printf("Muori perchè non sei riuscito a calcolare il gradiente della gamba del figlio del prof\n");
         }
       }
+    }
   }
-  }
+}
